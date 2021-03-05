@@ -13,7 +13,7 @@ body{
 .container{
   width: 100%;
   padding: 0% 10%;
-  min-width: 1200px;
+  
 }
 
 .clearfix:after {
@@ -25,11 +25,16 @@ body{
 .float-left {
   float: left;
 }
+.w20{
+  width: 20%;
+}
 
 .w-50 {
   width: 50%;
 }
-
+.w-80{
+  width: 80%;
+}
 .col-2 {
   float: left;
   width: 50%;
@@ -67,7 +72,7 @@ body{
 
 
 /* nav*/
-nav{
+.nav-header{
   background-color: aliceblue;
   position: fixed;
   width: 100%;
@@ -114,15 +119,49 @@ nav{
   background-color: tomato;
 }
 
+/* header */
+/* jumbotron */
 
+header{
+  height: 100vh;
+  background-color: turquoise;
+  padding-top: 130px;
+  ;
+}
 
+.nav-2{
+  background-color: white;
+  line-height: 130px;
+}
 
+.jumbotron{
 
+}
+/* main */
+main{
+  height: 100vh;
+  background-color: violet;
+}
 
+header{
+  padding-top: 130px;
+}
 
+.nav-2{
+  width: 100%;
+  height: 130px;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
 
+.col-2-left{
+  width: 20%;
+  padding-left: 10%;
+}
 
-
-
+.col-2-right{
+  width: 70%;
+  text-align: right;
+}
 
 
