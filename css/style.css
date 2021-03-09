@@ -74,7 +74,7 @@ body{
 }
 
 
-/* nav*/
+/* Barra di navigazione fissa*/
 .nav-header{
   min-width: 1200px;
   background-color: aliceblue;
@@ -175,7 +175,7 @@ header{
   background-repeat: no-repeat;
   position: relative;
 }
-
+/* Jumbotron */
 .jumbotron{
   position: relative;
   height: 470px;
@@ -363,7 +363,7 @@ main .cube .img-cube{
   display: inline-block;
 }
 
-/* Marketing Sales and Service */
+/* Marketing, Sales and Service */
 
 .mark-sales-service{
   width: 100%;
@@ -488,13 +488,12 @@ main .cube .img-cube{
   border-radius: 5px;
 }
 
-/* GRIGLIA */
-
+/* div (momentaneo) */
 .spaziatura{
   width: 100%;
   height: 1000px;
 }
-
+/* GRIGLIA */
 .grid{
   width: 100%;
   height: 70vh;
@@ -530,7 +529,40 @@ main .cube .img-cube{
   font-size: 70%;
   vertical-align: middle;
 }
+/* Mini container all'interno delle celle */
+.grid-img1{
+  margin: auto;
+  height: 35%;
+  width: 50%;
+}
+.grid-img1 img{
+ height: 100%;
+ 
+}
+.grid-t1{
+  margin: auto;
+  height: 35%;
+  width: 50%;
+}
+.grid-t1 h4{
+ text-align: center;
+ width: 100%;
+ height: 100%;
+ color: white;
+ font-size: 250%;
+ font-weight: 600;
+}
 
+.grid-t2{
+  margin: auto;
+  height: 20%;
+  width: 70%;
+  font-size: 80%;
+  text-align: center;
+  color: white;
+}
+
+/* RIGA 1 */
 .grid-container .grid1{
   height: 50%;
   width: 100%;
@@ -581,7 +613,7 @@ main .cube .img-cube{
   background-repeat: no-repeat;
   background-position: center;
 }
-
+/* RIGA 2 */
 .cell-5{
   width: 25%;
   height: 100%;
@@ -621,41 +653,9 @@ main .cube .img-cube{
   background-repeat: no-repeat;
   background-position: center;
 }
-.grid-img1{
-  margin: auto;
-  height: 35%;
-  width: 50%;
-}
-.grid-img1 img{
- height: 100%;
- 
-}
-.grid-t1{
-  margin: auto;
-  height: 35%;
-  width: 50%;
-  
-}
-.grid-t1 h4{
- text-align: center;
- width: 100%;
- height: 100%;
- color: white;
- font-size: 250%;
- font-weight: 600;
-}
-
-.grid-t2{
-  margin: auto;
-  height: 20%;
-  width: 70%;
-  font-size: 80%;
-  text-align: center;
-  color: white;
-}
 
 /* CUSTOMERS */
-
+/* creato un div contenitore poi suddiviso in due colonne */
 .customers{
   height: 70vh;
   width: 100%;
@@ -724,6 +724,8 @@ main .cube .img-cube{
   color: #33475C;
 }
 
+/* Colonna destra */
+
 .col-right .customers-list{
   width: 100%;
   height: 30%;
@@ -738,6 +740,9 @@ main .cube .img-cube{
   height: 50%;
 }
 
+/* Griglia con all'interno loghi */
+
+/* Prima Riga */
 .cus-img1{
   width: 25%;
   height: 100%;
@@ -771,7 +776,7 @@ main .cube .img-cube{
   background-repeat: no-repeat;
 }
 
-/* seconda lista */
+/* Seconda Riga */
 
 .cus-img5{
   width: 25%;
@@ -806,12 +811,6 @@ main .cube .img-cube{
   background-repeat: no-repeat;
 }
 
-.empty{
-  width: 30%;
-  height: 100%;
-  background-color: darkolivegreen;
-}
-
 .customers-img{
   width: 70%;
   height: 100%;
@@ -820,8 +819,8 @@ main .cube .img-cube{
   background-size: 50%;
   background-repeat: no-repeat;
 }
-/* FOOTER */
 
+/* FOOTER */
 
 footer{
   width: 100%;
@@ -829,7 +828,6 @@ footer{
   background-color: #2D3E50;
   color: white;
 }
-
 
 footer .list-footer{
   width: 100%;
@@ -846,6 +844,7 @@ footer .list-footer{
   width: 100%;
   height: 18%;
 }
+
 .f-list h4{
   font-size: 120%;
   padding-top: 8%;
@@ -858,7 +857,6 @@ footer .list-footer{
 }
 
 .btn-footer{
-  
   text-decoration: none;
   padding: 18px 15px;
   background-color:aliceblue;
@@ -904,7 +902,6 @@ footer .list-footer{
   text-decoration: none;
   font-size: 120%;
 }
-
 
 
 .copyright{
