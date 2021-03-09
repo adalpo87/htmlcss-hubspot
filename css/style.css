@@ -14,7 +14,6 @@ body{
 .container{
   width: 100%;
   padding: 0% 15%;
-  
 }
 
 .clearfix:after {
@@ -275,14 +274,12 @@ main .cube .img-cube{
   margin: auto;
   bottom: 12%;
   background-color: white;
-  
   border-radius: 10px;
 }
 
 .img-book{
   width: 30%;
   height: 100%;
-  
   position: relative;
 }
 
@@ -293,6 +290,7 @@ main .cube .img-cube{
   left: 50%;
   transform: translatex(-50%);
 }
+
 .img-book a{
   text-decoration: none;
   position: absolute;
@@ -330,7 +328,7 @@ main .cube .img-cube{
 }
 
 .text-book h4{
-  margin-top: 4%;
+  margin-top: 1%;
   text-transform: uppercase;
   color: #1a3a5c;
 }
@@ -346,7 +344,7 @@ main .cube .img-cube{
 }
 
 .check{
-  margin-top: 40px;
+  margin-top: 35px;
 }
 
 .check span{
@@ -524,14 +522,18 @@ main .cube .img-cube{
 
 .grid-container{
   width: 100%;
-  height: 56%;
-  
+  height: 56%; 
+}
+
+.grid-container h4::after{
+  content: "+";
+  font-size: 70%;
+  vertical-align: middle;
 }
 
 .grid-container .grid1{
   height: 50%;
   width: 100%;
- 
 }
 
 .cell-1{
@@ -870,7 +872,7 @@ footer .list-footer{
 .social ul li{
   list-style: none;
   display: inline-block;
-  width: 17%;
+  width: 13%;
 }
 
 .social ul li a{
